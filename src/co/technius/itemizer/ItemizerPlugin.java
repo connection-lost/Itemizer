@@ -1,4 +1,4 @@
-package main.java.co.technius.itemizer;
+package co.technius.itemizer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -768,6 +768,7 @@ public class ItemizerPlugin extends JavaPlugin {
         }
         else {
             sender.sendMessage(ChatColor.GOLD + "Itemizer version " + ChatColor.AQUA + getDescription().getVersion() + ChatColor.GOLD + " by " + ChatColor.AQUA + "Technius");
+            sender.sendMessage(ChatColor.GOLD + "Updated to 1.8 by " + ChatColor.AQUA + "connection_lost");
             sender.sendMessage(ChatColor.GOLD + "Type " + ChatColor.AQUA + "/itemizer help" + ChatColor.GOLD + " for help");
         }
         return true;
